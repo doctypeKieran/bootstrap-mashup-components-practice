@@ -65,3 +65,51 @@ nav.navbar.navbar-light .navbar-nav a.nav-link.active-link {
 }
 
 /* Badge component styles */
+
+.badge#first-badge {
+    background-color: red;
+    padding: 12px;
+    box-shadow: -4px 2px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.badge#second-badge {
+    background-color: green;
+    padding: 14px;
+    border: 2px solid white;
+}
+
+.badge#third-badge {
+    background-color: rgb(3, 3, 133);
+    padding: 10px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.badge#fourth-badge {
+    background-color: rgb(122, 114, 0);
+    padding: 20px;
+    border-radius: 0px;
+    border: 3px dotted #000;
+}
+
+.badge#fifth-badge {
+    background-color: orange;
+    text-decoration: underline;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.badge#sixth-badge {
+    background-color: rgb(48, 1, 48);
+    padding: 24px;
+    border-radius: 50%;
+    font-weight: 400;
+}
+
+.badge#seventh-badge {
+    background-color: rgb(211, 54, 198);
+    color: #fff;
+    padding: 24px;
+    border-radius: 0px;
+    border: 2px dashed blue;
+}
