@@ -113,3 +113,51 @@ nav.navbar.navbar-light .navbar-nav a.nav-link.active-link {
     border-radius: 0px;
     border: 2px dashed blue;
 }
+
+/* Button component styles */
+.btn#first-btn {
+    background-color: blue;
+    color: #fff;
+    padding: 12px;
+}
+
+.btn#second-btn {
+    background-color: #3f3f3f;
+    color: #fafafa;
+}
+
+.btn#third-btn {
+    background-color: rgb(126, 0, 0);
+    color: #fafafa;
+    border-radius: 0px;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.8);
+}
+
+.btn#fourth-btn {
+    background-color: cadetblue;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px solid rgb(128, 83, 0);
+}
+
+.btn#fifth-btn {
+    background-color: rgb(250, 7, 209);
+    color: #fafafa;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0px 0px 6px 8px rgba(146, 4, 202, 0.5)
+}
+
+.btn#sixth-btn {
+    background-color: rgb(59, 29, 0);
+    color: #fafafa;
+    border: 4px solid blue;
+}
+
+.btn#seventh-btn {
+    background-color: lawngreen;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 20px;
+}
