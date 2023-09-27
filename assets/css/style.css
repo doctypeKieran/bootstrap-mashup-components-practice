@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-/* Universal Font */
+/* Universal Font and Scroll Behaviour */
 html {
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 /* Headings Font */
 .heading,
@@ -26,7 +27,6 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: #d6d6d6;
 }
-
 
 /* Navbar */
 nav.navbar {
@@ -53,6 +53,11 @@ nav.navbar.navbar-light .navbar-nav a.nav-link.active-link {
     color: #fff;
     font-weight: bold;
     text-decoration: underline;
+}
+
+/* Intro section */
+section.intro-section {
+    margin-top: 100px;
 }
 
 /* Alert component styles */
@@ -160,4 +165,19 @@ nav.navbar.navbar-light .navbar-nav a.nav-link.active-link {
     font-weight: bold;
     font-style: italic;
     border-radius: 20px;
+}
+
+/* --------------------- Media Queries */
+@media screen and (max-width: 540px) {
+    /* Make navbar brand smaller */
+    nav.navbar.navbar-light .navbar-brand {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* Make navbar brand smaller */
+    nav.navbar.navbar-light .navbar-brand {
+        font-size: 16px;
+    }
 }
